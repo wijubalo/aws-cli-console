@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AWS Console Access via CLI Credentials
 
 Scripts to generate an AWS Console access URL using programmatic credentials (`aws_access_key_id` / `aws_secret_access_key`), without needing direct IAM console access.
@@ -85,7 +84,3 @@ $duration = 129600
 | `AccessDenied` | User lacks `sts:GetFederationToken` permission | Contact your administrator to grant that permission |
 | `ExpiredToken` | The `aws_session_token` has expired | Remove the `aws_session_token` line from `~/.aws/credentials` |
 | URL opens but shows "Only federation tokens..." | Temporary credentials (`ASIA`) were used | Use permanent credentials (`AKIA`) instead |
-=======
-# aws-cli-console
-AWS Console Access via CLI Credentials
->>>>>>> 6a056269ae38029a959571c79fb59f01ce9b0d5e
